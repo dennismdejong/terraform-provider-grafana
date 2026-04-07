@@ -72,7 +72,7 @@ services:
       - "proxy"
     depends_on:
       - grafana
-    image: nginx:latest@sha256:fa5f6b4cc851e85f8542619dac4f60b1f24681fc7be221d00f4221c4f3b92caa
+    image: nginx:latest@sha256:1854da86e82d5dfb49a8f3d78b099adcc7e36608b207146ed95cd47937938a40
     ports:
       - 3001:3001
     volumes:
